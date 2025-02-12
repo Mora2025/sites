@@ -1,0 +1,22 @@
+body{
+    background-image: url(./ime/Hallazgos\ en\ los\ Datos.jpg);
+}
+.titulo1{
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 60px;
+}
+.primerp{
+    color: rgb(99, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.segundop{
+    color: rgb(104, 9, 107);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.portada{
+    border-radius: 20px;
+    width: 600px;
+}
