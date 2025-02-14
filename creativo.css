@@ -2,9 +2,152 @@ body{
     background-image: url(./ime/Premium\ Photo\ _\ Future\ artificial\ intelligence\ robot\ and\ cyborg_.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-.conjunto3{
-    width: 240px;
-    height: 150px;
+    flex-wrap: wrap;
 }
 
+/* Estilo para dispositivos con un ancho máximo de 768px (Tablets y teléfonos) */
+@media (max-width: 900px) {
+    .navbar-brand img {
+        width: 50px;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-collapse {
+        display: none;
+    }
+}
+
+/* Estilo para dispositivos con un ancho mínimo de 769px (PCs) */
+@media (min-width: 200px) {
+    .navbar-collapse {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .mytitlecard {
+        font-size: 18px;
+    }
+    .conjunto3 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 200px) {
+    .mytitlecard {
+        font-size: 24px;
+    }
+    .conjunto3 {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .mybouton, .mybouton1 {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 200px) {
+    .mybouton, .mybouton1 {
+        width: auto;
+        font-size: 18px;
+    }
+}
+.mybouton{
+    background-color: rgba(0, 132, 255, 0.219);
+    border: none;
+    font-size: 2vw;
+    color: rgb(223, 240, 238);
+    margin: 5 px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50px;
+    padding: 6px;
+    font-family: "Baskerville Old Face";
+}
+.mybouton:hover{
+    background-color: rgb(215, 250, 225);
+    color: rgb(255, 38, 0);
+    font-size: 2.5vw;
+}
+
+.whatsapp{
+    color: rgb(17, 0, 255);
+    font-family: cursive;
+    font-size: 6vw;
+
+}
+
+.whatsapp:hover{
+    color: rgb(157, 255, 0);
+    font-family: cursive;
+    font-size: 6vw;
+
+}
+
+.mi-recuadro{
+    border: 2px solid #000;
+    padding: 10px;
+    width: fit-content;
+    margin: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+
+}
+.mi-recuadro:hover{
+    border: 2px solid #96ee96;
+    padding: 10px;
+    width: fit-content;
+    margin: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    font-size: 6vw;
+   
+}
+
+.titulo-contacto{
+    color: rgba(10, 17, 1, 0.466);
+    font-family: cursive;
+    font-size: 4vw;
+}
+.titulo-contacto:hover{
+    color: rgba(211, 66, 9, 0.733);
+    font-family: cursive;
+    font-size: 4vw;
+}
+
+.cont{
+    border: 2px solid #96eedf;
+    display: flex;
+    background-color: rgb(133, 221, 221);
+    justify-content: center;
+    display: auto;
+    justify-content: center; /* Alínea los recuadros horizontalmente */
+    align-items: center;    /* Alínea los recuadros verticalmente */
+    height: 25vw;         /* Ajusta la altura del contenedor si es necesario */
+}
+
+  
+  .recuadro {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightblue; /* Color de fondo para los recuadros */
+  }
+  
+.title-cont{
+    border: 2px solid #96eedf;
+    background-color: rgb(133, 221, 221);
+    font-size: 1vw;
+    justify-content: center;
+}
+.conjunto3{
+    background-size: auto;
+}
