@@ -56,7 +56,7 @@ body{
 }
 
 @media (min-width: 200px) {
-    .mybouton, .mybouton1 {
+    .mybouton, .mybouton1, .cont {
         width: auto;
         font-size: 18px;
     }
@@ -81,7 +81,7 @@ body{
 .whatsapp{
     color: rgb(17, 0, 255);
     font-family: cursive;
-    font-size: 6vw;
+    font-size: 4vw;
 
 }
 
@@ -92,15 +92,27 @@ body{
 
 }
 
+.links2{
+    color: rgb(156, 22, 33);
+    font-family: cursive;
+    font-size: 2vw;
+    width: fit-content;
+}
+.title_curso{
+    color: rgb(136, 12, 109);
+    font-family: cursive;
+    font-size: 2vw;
+    width: fit-content;
+}
 .mi-recuadro{
     border: 2px solid #000;
     padding: 10px;
-    width: fit-content;
     margin: 20px;
     background-color: antiquewhite;
     border-radius: 20px;
-
+    width: fit-content;
 }
+
 .mi-recuadro:hover{
     border: 2px solid #96ee96;
     padding: 10px;
@@ -111,6 +123,17 @@ body{
     font-size: 6vw;
    
 }
+.mi-recuadro1{
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    background: cover;
+    width: fit-content;
+}
+
+
 
 .titulo-contacto{
     color: rgba(10, 17, 1, 0.466);
@@ -125,13 +148,11 @@ body{
 
 .cont{
     border: 2px solid #96eedf;
-    display: flex;
-    background-color: rgb(133, 221, 221);
-    justify-content: center;
-    display: auto;
+    background-color: rgb(133, 146, 221);
     justify-content: center; /* Alínea los recuadros horizontalmente */
     align-items: center;    /* Alínea los recuadros verticalmente */
-    height: 25vw;         /* Ajusta la altura del contenedor si es necesario */
+    height: 25vw;        /* Ajusta la altura del contenedor si es necesario */
+    width: fit-content;
 }
 
   
@@ -139,7 +160,7 @@ body{
     width: 100px;
     height: 100px;
     margin: 10px;
-    background-color: lightblue; /* Color de fondo para los recuadros */
+    background-color: rgb(69, 179, 59); /* Color de fondo para los recuadros */
   }
   
 .title-cont{
@@ -149,5 +170,59 @@ body{
     justify-content: center;
 }
 .conjunto3{
-    background-size: auto;
+    background-size: 4vw;
+    border-radius: 10px;
+    border: 5px solid #2318c5;
+}
+.conjunto4{
+    width: 13vw;
+    height: 12vw;
+}
+
+
+.pie_de_pagina{
+    color: aliceblue;
+    background-color: rgb(38, 20, 109);
+    text-align: center;
+    padding: 10px 0;
+
+    width: 100%;
+    bottom: 0;
+}
+.card-text{
+    color: #1da528;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+}
+.fa-cart-shopping{
+    color: #1da528;
+}
+.Title{
+    color: aliceblue;
+    font-family: Bodoni MT Black;
+}
+
+.redes{
+    color: #1da528;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+}
+
+.Instagram{
+    color: #1da528;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+}
+.instagram1{
+    width: 2vw;
+}
+
+.facebook{
+    color: #1da528;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+}
+
+.facebook1{
+    width: 2vw;
 }

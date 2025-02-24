@@ -127,27 +127,16 @@ body{
     font-family: cursive;
     font-size: 2vw;
 }
-.primerp:hover{
-    font-family: cursive;
-    font-size: 4vw;
-}
+
 .segundop{
     font-family: cursive;
     font-size: 3vw;
     color: black;
 }
-.segundop:hover{
-    font-family: cursive;
-    font-size: 3vw;
-    color: black;
-}
+
+
 .titulo1{
     font-family: cursive;
     font-size: 3vw;
-    color: black;
-}
-.titulo1:hover{
-    font-family: cursive;
-    font-size: 6%;
     color: black;
 }
